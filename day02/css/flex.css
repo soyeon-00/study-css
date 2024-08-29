@@ -1,0 +1,32 @@
+#flex-wrap {
+  display: flex;
+  border: solid 1px black;
+
+  /* 반대축 */
+  /* flex-direction: column; */
+
+  /* 메인축 */
+  flex-direction: row; 
+
+
+   /* 메인축 */
+  /* justify-content: space-between; */
+
+  /* 반대축 */
+  /* align-items: end; */
+
+  /* 부모크기가 줄어들면 자식이 아래로 내려감 */
+  flex-wrap: wrap;
+
+}
+
+#flex-wrap .box5 {
+  align-self: center;
+}
+
+#flex-wrap .box {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  background-color: green;
+}

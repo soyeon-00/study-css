@@ -1,0 +1,43 @@
+#test {
+  display: flex;
+  border: solid 3px black;
+  flex-direction: column; 
+  align-items: center;
+  margin: 170px 580px;
+ 
+}
+
+#test .box {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  background-color: blue;
+}
+
+
+/* #content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#border {
+  width: 200px;
+  border: solid 2px black;
+  padding: 20px;
+}
+
+#container {
+  width: 200px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+} */

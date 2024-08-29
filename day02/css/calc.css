@@ -1,0 +1,25 @@
+#view {
+  /*  %, vh, vw, dvw, dvh */
+  width: calc(100% - 40px) ;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: darkgrey;
+}
+
+/*  min(), max()  */
+
+  /* 최대 크기를 고정 */
+  /* max-width */
+/* #container {
+  width: min(50%, 500px);
+  height: 200px;
+  background-color: chocolate;
+} */
+
+#container {
+  /* 최소 크기를 고정 */
+  /* min-width */
+  width: max(50%, 500px);
+  height: 200px;
+  background-color: chocolate;
+}
