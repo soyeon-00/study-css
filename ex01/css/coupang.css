@@ -1,0 +1,23 @@
+
+/* .coupang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 50px 40px 50px;
+} */
+
+.a {
+ font-size: 13px;
+}
+
+#b {
+  width: 300px;
+  display: flex;
+  flex-direction:column;
+}
+
+.c {
+  margin: 3px;
+  color: darkgrey;
+  border-block-color: darkgrey;
+}
