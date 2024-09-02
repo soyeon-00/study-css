@@ -1,0 +1,29 @@
+.star {
+  width: 200px;
+  height: 200px;
+  animation: star-move 1s infinite;
+}
+
+@keyframes star-move {
+  0%{
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+p {
+  animation: text-move 1s forwards;
+}
+
+@keyframes text-move {
+  0%{
+    transform: translate(100%);
+  }
+  100%{
+    transform: translate(0);
+  }
+}

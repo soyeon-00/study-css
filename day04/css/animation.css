@@ -1,0 +1,32 @@
+.white {
+  width: 400px;
+  animation: white-move 1s forwards;
+  /* infinite : 무한 */
+  /* forwards: 애니메이션이 끝난자리에 멈춤 */
+}
+
+/* 애니메이션 선언 */
+@keyframes white-move {
+  /* 1번 방법 */
+  form{transform: translate(0, 0);}
+  to{transform: translate(100px, 0);}
+}
+
+p{
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+    /* 2번 방법 */
+    /* % 숫자는 마음대로 넣을 수 있음 */
+    /* opacity: 1; 처음에는 숨겨져 있다가 글자가 나타남 */
+    0%{
+      transform: translate(0, 40px);
+      opacity: 0;
+    }
+    /* 50%{} */
+    100%{
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
