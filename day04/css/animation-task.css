@@ -21,9 +21,128 @@ p {
 
 @keyframes text-move {
   0%{
-    transform: translate(100%);
+    transform: translate(0, 100px);
   }
   100%{
-    transform: translate(0);
+    transform: translate(0, 0);
   }
 }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: darkviolet;
+  animation: circle-move 1s infinite;
+}
+
+@keyframes circle-move {
+  0%{
+    transform: translate(0, 100px);
+  }
+  100%{
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes circle-move {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, 100px);
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation: box-move 1s infinite;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+@keyframes box-move {
+  0%{
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.movebox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+} 
+
+.box1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(234, 15, 15);
+  animation: box1-move 1s infinite;
+}
+
+ .box2 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(231, 115, 43);
+  animation: box2-move 1s infinite;
+}
+
+.box3 {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  animation: box3-move 1s infinite;
+}
+
+.box4 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(9, 105, 38);
+  animation: box4-move 1s infinite;
+}
+
+
+@keyframes box1-move {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, -50px);
+  }
+}
+
+@keyframes box2-move {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, -80px);
+  }
+}
+
+@keyframes box3-move {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, -110px);
+  }
+}
+
+@keyframes box4-move {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, -140px);
+  }
+}
+

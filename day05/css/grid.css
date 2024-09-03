@@ -1,0 +1,19 @@
+#grid-wrapper {
+  display: grid;
+  grid-template: 
+  "a a a a" 100px
+  "b b c c" 100px
+  "d e f g" 100px
+  /100px 100px 100px 100px;
+  gap: 4px;
+}
+
+.box {
+  background-color: gold;
+  border: solid 1px black ;
+}
+
+.box:nth-child(1) {
+  background-color: hotpink;
+  grid-area: a;
+}
